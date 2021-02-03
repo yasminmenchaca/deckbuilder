@@ -10,6 +10,9 @@ import {
   cardSeven,
   cardEight,
   cardNine,
+  cardTen,
+  cardEleven,
+  cardTwelve,
 } from "../cards/1_12";
 import { Container, Row, Col } from "react-bootstrap";
 
@@ -24,23 +27,18 @@ export default class DeckBuilder extends Component {
   selectOne(e) {
     this.setState({ cardOne: e.label });
   }
-
   selectTwo(e) {
     this.setState({ cardTwo: e.label });
   }
-
   selectThree(e) {
     this.setState({ cardThree: e.label });
   }
-
   selectFour(e) {
     this.setState({ cardFour: e.label });
   }
-
   selectFive(e) {
     this.setState({ cardFive: e.label });
   }
-
   selectSix(e) {
     this.setState({ cardSix: e.label });
   }
@@ -52,6 +50,15 @@ export default class DeckBuilder extends Component {
   }
   selectNine(e) {
     this.setState({ cardNine: e.label });
+  }
+  selectTen(e) {
+    this.setState({ cardTen: e.label });
+  }
+  selectEleven(e) {
+    this.setState({ cardEleven: e.label });
+  }
+  selectTwelve(e) {
+    this.setState({ cardTwelve: e.label });
   }
 
   render() {
@@ -143,24 +150,24 @@ export default class DeckBuilder extends Component {
             <Col>
               {" "}
               <Select
-                // options={cardOne}
-                onChange={this.selectOne.bind(this)}
+                options={cardTen}
+                onChange={this.selectTen.bind(this)}
                 placeholder="#10"
               />
             </Col>
             <Col>
               {" "}
               <Select
-                // options={cardTwo}
-                onChange={this.selectTwo.bind(this)}
+                options={cardEleven}
+                onChange={this.selectEleven.bind(this)}
                 placeholder="#11"
               />
             </Col>
             <Col>
               {" "}
               <Select
-                // options={cardThree}
-                onChange={this.selectThree.bind(this)}
+                options={cardTwelve}
+                onChange={this.selectTwelve.bind(this)}
                 placeholder="#12"
               />
             </Col>
@@ -337,6 +344,9 @@ export default class DeckBuilder extends Component {
           <p>{this.state.cardSeven}</p>
           <p>{this.state.cardEight}</p>
           <p>{this.state.cardNine}</p>
+          <p>{this.state.cardTen}</p>
+          <p>{this.state.cardEleven}</p>
+          <p>{this.state.cardTwelve}</p>
         </Container>
       </div>
     );

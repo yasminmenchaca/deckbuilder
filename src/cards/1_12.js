@@ -365,7 +365,6 @@ export const cardFive = [
   },
 ];
 
-
 export const cardSix = [
   {
     label: "#6 - Ankle Trap",
@@ -791,5 +790,310 @@ export const cardNine = [
   {
     value: "Wrist Lock",
     label: "#9 - Wrist Lock",
+  },
+];
+
+export const cardTen = [
+  {
+    value: "Back Kick (v1)",
+    label: "#10 - Back Kick (v1)",
+  },
+  {
+    value: "Back Kick (v2)",
+    label: "#10 - Back Kick (v2)",
+  },
+  {
+    value: "Boot Lace",
+    label: "#10 - Boot Lace",
+  },
+  {
+    value: "Bulldog Lariat",
+    label: "#10 - Bulldog Lariat",
+  },
+  {
+    value: "Charging Headbutt",
+    label: "#10 - Charging Headbutt",
+  },
+  {
+    value: "Chop to the Chest",
+    label: "#10 - Chop to the Chest",
+  },
+  {
+    value: "Cosmic Punch",
+    label: "#10 - Cosmic Punch",
+  },
+  {
+    value: "European Uppercut (v1)",
+    label: "#10 - European Uppercut (v1)",
+  },
+  {
+    value: "European Uppercut (v2)",
+    label: "#10 - European Uppercut (v2)",
+  },
+  {
+    value: "Exchange Blows",
+    label: "#10 - Exchange Blows",
+  },
+  {
+    value: "Face Slap",
+    label: "#10 - Face Slap",
+  },
+  {
+    value: "Gathering The Ladder",
+    label: "#10 - Gathering The Ladder",
+  },
+  {
+    value: "Gut Shot",
+    label: "#10 - Gut Shot",
+  },
+  {
+    value: "Head Punch",
+    label: "#10 - Head Punch",
+  },
+  {
+    value: "Headbutt",
+    label: "#10 - Headbutt",
+  },
+  {
+    value: "Kickin' It Old School",
+    label: "#10 - Kickin' It Old School",
+  },
+  {
+    value: "Kicks to the Back",
+    label: "#10 - Kicks to the Back",
+  },
+  {
+    value: "Knee Lift",
+    label: "#10 - Knee Lift",
+  },
+  {
+    value: "Lucky Shot",
+    label: "#10 - Lucky Shot",
+  },
+  {
+    value: "Pier Six Brawl",
+    label: "#10 - Pier Six Brawl",
+  },
+  {
+    value: "Rabbit Punch",
+    label: "#10 - Rabbit Punch",
+  },
+  {
+    value: "Slap",
+    label: "#10 - Slap",
+  },
+  {
+    value: "Sucker Punch (Strike 8+)",
+    label: "#10 - Sucker Punch (Strike 8+)",
+  },
+  {
+    value: "Surprise Attack",
+    label: "#10 - Surprise Attack",
+  },
+];
+
+export const cardEleven = [
+  {
+    value: "All American Drop",
+    label: "#11 - All American Drop",
+  },
+  {
+    value: "Arm Drag",
+    label: "#11 - Arm Drag",
+  },
+  {
+    value: "Back and Forth Action",
+    label: "#11 - Back and Forth Action",
+  },
+  {
+    value: "Belly to Back Suplex (v1)",
+    label: "#11 - Belly to Back Suplex (v1)",
+  },
+  {
+    value: "Belly to Back Suplex (v2)",
+    label: "#11 - Belly to Back Suplex (v2)",
+  },
+  {
+    value: "Boss Around",
+    label: "#11 - Boss Around",
+  },
+  {
+    value: "Celestial Armenian Breaker",
+    label: "#11 - Celestial Armenian Breaker",
+  },
+  {
+    value: "Charging Takedown",
+    label: "#11 - Charging Takedown",
+  },
+  {
+    value: "Double Drop",
+    label: "#11 - Double Drop",
+  },
+  {
+    value: "Drop Toe Hold",
+    label: "#11 - Drop Toe Hold",
+  },
+  {
+    value: "Evening Up The Odds",
+    label: "#11 - Evening Up The Odds",
+  },
+  {
+    value: "Gathering The Steel Chair",
+    label: "#11 - Gathering The Steel Chair",
+  },
+  {
+    value: "Gathering The Table",
+    label: "#11 - Gathering The Table",
+  },
+  {
+    value: "Japanese Arm Drag",
+    label: "#11 - Japanese Arm Drag",
+  },
+  {
+    value: "Judo Takedown",
+    label: "#11 - Judo Takedown",
+  },
+  {
+    value: "Reverse Backbreaker",
+    label: "#11 - Reverse Backbreaker",
+  },
+  {
+    value: "Russian Leg Sweep",
+    label: "#11 - Russian Leg Sweep",
+  },
+  {
+    value: "Samoan Drop",
+    label: "#11 - Samoan Drop",
+  },
+  {
+    value: "Slam Into The Mat",
+    label: "#11 - Slam Into The Mat",
+  },
+  {
+    value: "Snap Cutter",
+    label: "#11 - Snap Cutter",
+  },
+  {
+    value: "Snap Mare",
+    label: "#11 - Snap Mare",
+  },
+  {
+    value: "Sweeping Takedown",
+    label: "#11 - Sweeping Takedown",
+  },
+  {
+    value: "Taunting Sheep",
+    label: "#11 - Taunting Sheep",
+  },
+  {
+    value: "Toss Into The Turnbuckle",
+    label: "#11 - Toss Into The Turnbuckle",
+  },
+  {
+    value: "Turn the Tables",
+    label: "#11 - Turn the Tables",
+  },
+];
+
+export const cardTwelve = [
+  {
+    value: "Abdominal Twist",
+    label: "#12 - Abdominal Twist",
+  },
+  {
+    value: "Arm Breaker (v1)",
+    label: "#12 - Arm Breaker (v1)",
+  },
+  {
+    value: "Arm Breaker (v2)",
+    label: "#12 - Arm Breaker (v2)",
+  },
+  {
+    value: "Arm Lock",
+    label: "#12 - Arm Lock",
+  },
+  {
+    value: "Arm Stomp",
+    label: "#12 - Arm Stomp",
+  },
+  {
+    value: "Arm Triangle",
+    label: "#12 - Arm Triangle",
+  },
+  {
+    value: "Chin Choke",
+    label: "#12 - Chin Choke",
+  },
+  {
+    value: "Finger Lock Smash",
+    label: "#12 - Finger Lock Smash",
+  },
+  {
+    value: "Gathering The Ring Steps",
+    label: "#12 - Gathering The Ring Steps",
+  },
+  {
+    value: "Gathering The Steel Chain",
+    label: "#12 - Gathering The Steel Chain",
+  },
+  {
+    value: "Grind It Out",
+    label: "#12 - Grind It Out",
+  },
+  {
+    value: "Hammer Lock",
+    label: "#12 - Hammer Lock",
+  },
+  {
+    value: "High Impact Choke",
+    label: "#12 - High Impact Choke",
+  },
+  {
+    value: "Jaw Jammer",
+    label: "#12 - Jaw Jammer",
+  },
+  {
+    value: "Leg Trap",
+    label: "#12 - Leg Trap",
+  },
+  {
+    value: "Rear Chin Lock",
+    label: "#12 - Rear Chin Lock",
+  },
+  {
+    value: "Reverse Hold",
+    label: "#12 - Reverse Hold",
+  },
+  {
+    value: "Rolling Forearm Lock",
+    label: "#12 - Rolling Forearm Lock",
+  },
+  {
+    value: "Shaking In My Boots",
+    label: "#12 - Shaking In My Boots",
+  },
+  {
+    value: "Show of Force",
+    label: "#12 - Show of Force",
+  },
+  {
+    value: "Side Chin Lock",
+    label: "#12 - Side Chin Lock",
+  },
+  {
+    value: "Taunt From The Top Rope",
+    label: "#12 - Taunt From The Top Rope",
+  },
+  {
+    value: "The Numbers Game",
+    label: "#12 - The Numbers Game",
+  },
+  {
+    value: "Waist Lock",
+    label: "#12 - Waist Lock",
+  },
+  {
+    value: "Turn the Tables",
+    label: "#12 - Turn the Tables",
   },
 ];
