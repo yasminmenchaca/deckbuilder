@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/deckbuilder/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/deckbuilder/static/js/main.36919859.chunk.js",
-    "main.js.map": "/deckbuilder/static/js/main.36919859.chunk.js.map",
+    "main.js": "/deckbuilder/static/js/main.5b5645fc.chunk.js",
+    "main.js.map": "/deckbuilder/static/js/main.5b5645fc.chunk.js.map",
     "runtime-main.js": "/deckbuilder/static/js/runtime-main.2bc0aec3.js",
     "runtime-main.js.map": "/deckbuilder/static/js/runtime-main.2bc0aec3.js.map",
     "static/css/2.150d169a.chunk.css": "/deckbuilder/static/css/2.150d169a.chunk.css",
@@ -20,6 +20,6 @@
     "static/css/2.150d169a.chunk.css",
     "static/js/2.9ddfa6ef.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.36919859.chunk.js"
+    "static/js/main.5b5645fc.chunk.js"
   ]
 }
