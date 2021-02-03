@@ -14,6 +14,17 @@ import {
   cardEleven,
   cardTwelve,
 } from "../cards/1_12";
+import {
+  cardThirteen,
+  cardFourteen,
+  cardFifteen,
+  cardSixteen,
+  cardSeventeen,
+  cardEighteen,
+  cardNineteen,
+  cardTwenty,
+  cardTwentyOne,
+} from "../cards/13_21";
 import { Container, Row, Col } from "react-bootstrap";
 
 export default class DeckBuilder extends Component {
@@ -59,6 +70,36 @@ export default class DeckBuilder extends Component {
   }
   selectTwelve(e) {
     this.setState({ cardTwelve: e.label });
+  }
+  selectThirteen(e) {
+    this.setState({ cardThirteen: e.label });
+  }
+  selectFourteen(e) {
+    this.setState({ cardFourteen: e.label });
+  }
+  selectFifteen(e) {
+    this.setState({ cardFifteen: e.label });
+  }
+  selectSixteen(e) {
+    this.setState({ cardSixteen: e.label });
+  }
+  selectSeventeen(e) {
+    this.setState({ cardSeventeen: e.label });
+  }
+  selectEighteen(e) {
+    this.setState({ cardEighteen: e.label });
+  }
+  selectNineteen(e) {
+    this.setState({ cardEighteen: e.label });
+  }
+  selectTwenty(e) {
+    this.setState({ cardNineteen: e.label });
+  }
+  selectTwentyOne(e) {
+    this.setState({ cardTwenty: e.label });
+  }
+  selectTwentyTwo(e) {
+    this.setState({ cardTwentyOne: e.label });
   }
 
   render() {
@@ -177,24 +218,24 @@ export default class DeckBuilder extends Component {
             <Col>
               {" "}
               <Select
-                // options={cardOne}
-                onChange={this.selectOne.bind(this)}
+                options={cardThirteen}
+                onChange={this.selectThirteen.bind(this)}
                 placeholder="#13"
               />
             </Col>
             <Col>
               {" "}
               <Select
-                // options={cardTwo}
-                onChange={this.selectTwo.bind(this)}
+                options={cardFourteen}
+                onChange={this.selectFourteen.bind(this)}
                 placeholder="#14"
               />
             </Col>
             <Col>
               {" "}
               <Select
-                // options={cardThree}
-                onChange={this.selectThree.bind(this)}
+                options={cardFifteen}
+                onChange={this.selectFifteen.bind(this)}
                 placeholder="#15"
               />
             </Col>
@@ -204,24 +245,24 @@ export default class DeckBuilder extends Component {
             <Col>
               {" "}
               <Select
-                // options={cardOne}
-                onChange={this.selectOne.bind(this)}
+                options={cardSixteen}
+                onChange={this.selectSixteen.bind(this)}
                 placeholder="#16"
               />
             </Col>
             <Col>
               {" "}
               <Select
-                // options={cardTwo}
-                onChange={this.selectTwo.bind(this)}
+                options={cardSeventeen}
+                onChange={this.selectSeventeen.bind(this)}
                 placeholder="#17"
               />
             </Col>
             <Col>
               {" "}
               <Select
-                // options={cardThree}
-                onChange={this.selectThree.bind(this)}
+                options={cardEighteen}
+                onChange={this.selectEighteen.bind(this)}
                 placeholder="#18"
               />
             </Col>
@@ -231,24 +272,24 @@ export default class DeckBuilder extends Component {
             <Col>
               {" "}
               <Select
-                // options={cardOne}
-                onChange={this.selectOne.bind(this)}
+                options={cardNineteen}
+                onChange={this.selectNineteen.bind(this)}
                 placeholder="#19"
               />
             </Col>
             <Col>
               {" "}
               <Select
-                // options={cardTwo}
-                onChange={this.selectTwo.bind(this)}
+                options={cardTwenty}
+                onChange={this.selectTwenty.bind(this)}
                 placeholder="#20"
               />
             </Col>
             <Col>
               {" "}
               <Select
-                // options={cardThree}
-                onChange={this.selectThree.bind(this)}
+                options={cardTwentyOne}
+                onChange={this.selectTwentyOne.bind(this)}
                 placeholder="#21"
               />
             </Col>
@@ -347,6 +388,24 @@ export default class DeckBuilder extends Component {
           <p>{this.state.cardTen}</p>
           <p>{this.state.cardEleven}</p>
           <p>{this.state.cardTwelve}</p>
+          <p>{this.state.cardThirteen}</p>
+          <p>{this.state.cardFourteen}</p>
+          <p>{this.state.cardFifteen}</p>
+          <p>{this.state.cardSixteen}</p>
+          <p>{this.state.cardSeventeen}</p>
+          <p>{this.state.cardEighteen}</p>
+          <p>{this.state.cardNineteen}</p>
+          <p>{this.state.cardTwenty}</p>
+          <p>{this.state.cardTwentyOne}</p>
+          {/* <p>{this.state.cardTwentyTwo}</p> */}
+          {/* <p>{this.state.cardTwentyThree}</p> */}
+          {/* <p>{this.state.cardTwentyFour}</p> */}
+          {/* <p>{this.state.cardTwentyFive}</p> */}
+          {/* <p>{this.state.cardTwentySix}</p> */}
+          {/* <p>{this.state.cardTwentySeven}</p> */}
+          {/* <p>{this.state.cardTwentyEight}</p> */}
+          {/* <p>{this.state.cardTwentyNine}</p> */}
+          {/* <p>{this.state.cardThirdy}</p> */}
         </Container>
       </div>
     );
