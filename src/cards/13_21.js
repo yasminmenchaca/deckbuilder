@@ -909,8 +909,8 @@ export const cardTwenty = [
     label: "#20 - Knockdown the Table",
   },
   {
-    value: "Neckbreaker",
-    label: "#20 - Neckbreaker",
+    value: "Neck Breaker",
+    label: "#20 - Neck Breaker",
   },
   {
     value: "Pancake Slam",
