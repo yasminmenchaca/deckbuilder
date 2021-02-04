@@ -459,7 +459,6 @@ export default class DeckBuilder extends Component {
           <p>
             Spectacle Affiliation: <span>{this.state.spectacle}</span>
           </p>
-          <p>Decklist: </p>
           <p>{this.state.cardOne}</p>
           <p>{this.state.cardTwo}</p>
           <p>{this.state.cardThree}</p>
