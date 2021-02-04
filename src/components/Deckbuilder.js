@@ -41,9 +41,12 @@ import { competitors } from "../cards/competitors";
 import { Container, Row, Col } from "react-bootstrap";
 import styled from "styled-components";
 
-
 const Card = styled.li`
   /* list-style: none; */
+`;
+
+const Text = styled.p`
+  color: green;
 `;
 
 export default class DeckBuilder extends Component {
@@ -159,7 +162,7 @@ export default class DeckBuilder extends Component {
       <div>
         <Container>
           <Row>
-            <Col>
+            <Col sm style={{ paddingBottom: "5px" }}>
               {" "}
               <Select
                 options={competitors}
@@ -167,7 +170,7 @@ export default class DeckBuilder extends Component {
                 placeholder="Competitor"
               />
             </Col>
-            <Col>
+            <Col sm style={{ paddingBottom: "5px" }}>
               {" "}
               <Select
                 options={entrance}
@@ -175,7 +178,7 @@ export default class DeckBuilder extends Component {
                 placeholder="Entrance"
               />
             </Col>
-            <Col>
+            <Col sm style={{ paddingBottom: "5px" }}>
               {" "}
               <Select
                 options={spectacle}
@@ -185,9 +188,8 @@ export default class DeckBuilder extends Component {
             </Col>
           </Row>
 
-          <br />
           <Row>
-            <Col>
+            <Col sm style={{ paddingBottom: "5px" }}>
               {" "}
               <Select
                 options={cardOne}
@@ -195,7 +197,7 @@ export default class DeckBuilder extends Component {
                 placeholder="#1"
               />
             </Col>
-            <Col>
+            <Col sm style={{ paddingBottom: "5px" }}>
               {" "}
               <Select
                 options={cardTwo}
@@ -203,7 +205,7 @@ export default class DeckBuilder extends Component {
                 placeholder="#2"
               />
             </Col>
-            <Col>
+            <Col sm style={{ paddingBottom: "5px" }}>
               {" "}
               <Select
                 options={cardThree}
@@ -212,9 +214,9 @@ export default class DeckBuilder extends Component {
               />
             </Col>
           </Row>
-          <br />
+
           <Row>
-            <Col>
+            <Col sm style={{ paddingBottom: "5px" }}>
               {" "}
               <Select
                 options={cardFour}
@@ -222,7 +224,7 @@ export default class DeckBuilder extends Component {
                 placeholder="#4"
               />
             </Col>
-            <Col>
+            <Col sm style={{ paddingBottom: "5px" }}>
               {" "}
               <Select
                 options={cardFive}
@@ -230,7 +232,7 @@ export default class DeckBuilder extends Component {
                 placeholder="#5"
               />
             </Col>
-            <Col>
+            <Col sm style={{ paddingBottom: "5px" }}>
               {" "}
               <Select
                 options={cardSix}
@@ -239,9 +241,9 @@ export default class DeckBuilder extends Component {
               />
             </Col>
           </Row>
-          <br />
+
           <Row>
-            <Col>
+            <Col sm style={{ paddingBottom: "5px" }}>
               {" "}
               <Select
                 options={cardSeven}
@@ -249,7 +251,7 @@ export default class DeckBuilder extends Component {
                 placeholder="#7"
               />
             </Col>
-            <Col>
+            <Col sm style={{ paddingBottom: "5px" }}>
               {" "}
               <Select
                 options={cardEight}
@@ -257,7 +259,7 @@ export default class DeckBuilder extends Component {
                 placeholder="#8"
               />
             </Col>
-            <Col>
+            <Col sm style={{ paddingBottom: "5px" }}>
               {" "}
               <Select
                 options={cardNine}
@@ -266,9 +268,9 @@ export default class DeckBuilder extends Component {
               />
             </Col>
           </Row>
-          <br />
+
           <Row>
-            <Col>
+            <Col sm style={{ paddingBottom: "5px" }}>
               {" "}
               <Select
                 options={cardTen}
@@ -276,7 +278,7 @@ export default class DeckBuilder extends Component {
                 placeholder="#10"
               />
             </Col>
-            <Col>
+            <Col sm style={{ paddingBottom: "5px" }}>
               {" "}
               <Select
                 options={cardEleven}
@@ -284,7 +286,7 @@ export default class DeckBuilder extends Component {
                 placeholder="#11"
               />
             </Col>
-            <Col>
+            <Col sm style={{ paddingBottom: "5px" }}>
               {" "}
               <Select
                 options={cardTwelve}
@@ -293,9 +295,9 @@ export default class DeckBuilder extends Component {
               />
             </Col>
           </Row>
-          <br />
+
           <Row>
-            <Col>
+            <Col sm style={{ paddingBottom: "5px" }}>
               {" "}
               <Select
                 options={cardThirteen}
@@ -303,7 +305,7 @@ export default class DeckBuilder extends Component {
                 placeholder="#13"
               />
             </Col>
-            <Col>
+            <Col sm style={{ paddingBottom: "5px" }}>
               {" "}
               <Select
                 options={cardFourteen}
@@ -311,7 +313,7 @@ export default class DeckBuilder extends Component {
                 placeholder="#14"
               />
             </Col>
-            <Col>
+            <Col sm style={{ paddingBottom: "5px" }}>
               {" "}
               <Select
                 options={cardFifteen}
@@ -320,9 +322,9 @@ export default class DeckBuilder extends Component {
               />
             </Col>
           </Row>
-          <br />
+
           <Row>
-            <Col>
+            <Col sm style={{ paddingBottom: "5px" }}>
               {" "}
               <Select
                 options={cardSixteen}
@@ -330,7 +332,7 @@ export default class DeckBuilder extends Component {
                 placeholder="#16"
               />
             </Col>
-            <Col>
+            <Col sm style={{ paddingBottom: "5px" }}>
               {" "}
               <Select
                 options={cardSeventeen}
@@ -338,7 +340,7 @@ export default class DeckBuilder extends Component {
                 placeholder="#17"
               />
             </Col>
-            <Col>
+            <Col sm style={{ paddingBottom: "5px" }}>
               {" "}
               <Select
                 options={cardEighteen}
@@ -347,9 +349,9 @@ export default class DeckBuilder extends Component {
               />
             </Col>
           </Row>
-          <br />
+
           <Row>
-            <Col>
+            <Col sm style={{ paddingBottom: "5px" }}>
               {" "}
               <Select
                 options={cardNineteen}
@@ -357,7 +359,7 @@ export default class DeckBuilder extends Component {
                 placeholder="#19"
               />
             </Col>
-            <Col>
+            <Col sm style={{ paddingBottom: "5px" }}>
               {" "}
               <Select
                 options={cardTwenty}
@@ -365,7 +367,7 @@ export default class DeckBuilder extends Component {
                 placeholder="#20"
               />
             </Col>
-            <Col>
+            <Col sm style={{ paddingBottom: "5px" }}>
               {" "}
               <Select
                 options={cardTwentyOne}
@@ -374,9 +376,9 @@ export default class DeckBuilder extends Component {
               />
             </Col>
           </Row>
-          <br />
+
           <Row>
-            <Col>
+            <Col sm style={{ paddingBottom: "5px" }}>
               {" "}
               <Select
                 options={cardTwentyTwo}
@@ -384,7 +386,7 @@ export default class DeckBuilder extends Component {
                 placeholder="#22"
               />
             </Col>
-            <Col>
+            <Col sm style={{ paddingBottom: "5px" }}>
               {" "}
               <Select
                 options={cardTwentyThree}
@@ -392,7 +394,7 @@ export default class DeckBuilder extends Component {
                 placeholder="#23"
               />
             </Col>
-            <Col>
+            <Col sm style={{ paddingBottom: "5px" }}>
               {" "}
               <Select
                 options={cardTwentyFour}
@@ -401,9 +403,9 @@ export default class DeckBuilder extends Component {
               />
             </Col>
           </Row>
-          <br />
+
           <Row>
-            <Col>
+            <Col sm style={{ paddingBottom: "5px" }}>
               {" "}
               <Select
                 options={cardTwentyFive}
@@ -411,7 +413,7 @@ export default class DeckBuilder extends Component {
                 placeholder="#25"
               />
             </Col>
-            <Col>
+            <Col sm style={{ paddingBottom: "5px" }}>
               {" "}
               <Select
                 options={cardTwentySix}
@@ -419,7 +421,7 @@ export default class DeckBuilder extends Component {
                 placeholder="#26"
               />
             </Col>
-            <Col>
+            <Col sm style={{ paddingBottom: "5px" }}>
               {" "}
               <Select
                 options={cardTwentySeven}
@@ -428,9 +430,9 @@ export default class DeckBuilder extends Component {
               />
             </Col>
           </Row>
-          <br />
+
           <Row>
-            <Col>
+            <Col sm style={{ paddingBottom: "5px" }}>
               {" "}
               <Select
                 options={cardTwentyEight}
@@ -438,7 +440,7 @@ export default class DeckBuilder extends Component {
                 placeholder="#28"
               />
             </Col>
-            <Col>
+            <Col sm style={{ paddingBottom: "5px" }}>
               {" "}
               <Select
                 options={cardTwentyNine}
@@ -446,7 +448,7 @@ export default class DeckBuilder extends Component {
                 placeholder="#29"
               />
             </Col>
-            <Col>
+            <Col sm style={{ paddingBottom: "5px" }}>
               {" "}
               <Select
                 options={cardThirty}
@@ -455,6 +457,7 @@ export default class DeckBuilder extends Component {
               />
             </Col>
           </Row>
+
           <br />
           <p>
             Competitor: <span>{this.state.competitors}</span>
@@ -465,10 +468,8 @@ export default class DeckBuilder extends Component {
           <p>
             Spectacle Affiliation: <span>{this.state.spectacle}</span>
           </p>
-          <p>
-            Deck List:
-          </p>
-          <ol>
+          <p>Deck List:</p>
+          {/* <ol>
             <Card>{this.state.cardOne}</Card>
             <Card>{this.state.cardTwo}</Card>
             <Card>{this.state.cardThree}</Card>
@@ -499,7 +500,7 @@ export default class DeckBuilder extends Component {
             <Card>{this.state.cardTwentyEight}</Card>
             <Card>{this.state.cardTwentyNine}</Card>
             <Card>{this.state.cardThirty}</Card>
-          </ol>
+          </ol> */}
         </Container>
       </div>
     );
