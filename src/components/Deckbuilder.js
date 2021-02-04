@@ -36,6 +36,8 @@ import {
   cardTwentyNine,
   cardThirty,
 } from "../cards/22_30";
+import { entrance, spectacle } from "../cards/entrance";
+import { competitors } from "../cards/competitors";
 import { Container, Row, Col } from "react-bootstrap";
 
 export default class DeckBuilder extends Component {
@@ -136,11 +138,48 @@ export default class DeckBuilder extends Component {
   selectThirty(e) {
     this.setState({ cardThirty: e.label });
   }
+  selectCompetitors(e) {
+    this.setState({ competitors: e.label });
+  }
+  selectEntrance(e) {
+    this.setState({ entrance: e.label });
+  }
+  selectSpectacle(e) {
+    this.setState({ spectacle: e.label });
+  }
 
   render() {
     return (
       <div>
         <Container>
+          <Row>
+            <Col>
+              {" "}
+              <Select
+                options={competitors}
+                onChange={this.selectCompetitors.bind(this)}
+                placeholder="Competitor"
+              />
+            </Col>
+            <Col>
+              {" "}
+              <Select
+                options={entrance}
+                onChange={this.selectEntrance.bind(this)}
+                placeholder="Entrance"
+              />
+            </Col>
+            <Col>
+              {" "}
+              <Select
+                options={spectacle}
+                onChange={this.selectSpectacle.bind(this)}
+                placeholder="Spectacle"
+              />
+            </Col>
+          </Row>
+
+          <br />
           <Row>
             <Col>
               {" "}
@@ -411,6 +450,16 @@ export default class DeckBuilder extends Component {
             </Col>
           </Row>
           <br />
+          <p>
+            Competitor: <span>{this.state.competitors}</span>
+          </p>
+          <p>
+            Entrance: <span>{this.state.entrance}</span>
+          </p>
+          <p>
+            Spectacle Affiliation: <span>{this.state.spectacle}</span>
+          </p>
+          <p>Decklist: </p>
           <p>{this.state.cardOne}</p>
           <p>{this.state.cardTwo}</p>
           <p>{this.state.cardThree}</p>

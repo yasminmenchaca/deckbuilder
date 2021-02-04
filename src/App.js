@@ -1,15 +1,19 @@
 import React, { Component } from "react";
 import DeckBuilder from "./components/Deckbuilder";
+import NavBar from "./components/NavBar";
 
 class App extends Component {
   render() {
     const mainContainer = {
-      padding: "10px",
+      paddingTop: "10px",
     };
 
     return (
-      <div style={mainContainer}>
-        <DeckBuilder />
+      <div>
+        <NavBar />
+        <div style={mainContainer}>
+          <DeckBuilder />
+        </div>
       </div>
     );
   }
