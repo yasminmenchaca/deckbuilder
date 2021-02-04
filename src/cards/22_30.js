@@ -20,6 +20,10 @@ export const cardTwentyTwo = [
     label: "#22 - Clothesline",
   },
   {
+    value: "Cosmic Charging Splash",
+    label: "#22 - Cosmic Charging Splash",
+  },
+  {
     value: "Daredevil Dive",
     label: "#22 - Daredevil Dive",
   },
@@ -317,6 +321,10 @@ export const cardTwentyFive = [
     label: "#25 - Back Splash",
   },
   {
+    value: "Backlash With The Kendo Stick",
+    label: "#25 - Backlash With The Kendo Stick",
+  },
+  {
     value: "Backlash With The Ladder",
     label: "#25 - Backlash With The Ladder",
   },
@@ -402,6 +410,10 @@ export const cardTwentySix = [
   {
     value: "Back Drop",
     label: "#26 - Back Drop",
+  },
+  {
+    value: "Backlash With The Steel Chair",
+    label: "#26 - Backlash With The Steel Chair",
   },
   {
     value: "Backlash With The Table",
@@ -494,6 +506,14 @@ export const cardTwentySix = [
 ];
 
 export const cardTwentySeven = [
+  {
+    value: "Avert Your Eyes",
+    label: "#27 - Avert Your Eyes",
+  },
+  {
+    value: "Backlash With The Ring Steps",
+    label: "#27 - Backlash With The Ring Steps",
+  },
   {
     value: "Backlash With The Steel Chain",
     label: "#27 - Backlash With The Steel Chain",
@@ -719,6 +739,10 @@ export const cardTwentyNine = [
   {
     value: "Super Snap Powerbomb",
     label: "#29 - Super Snap Powerbomb",
+  },
+  {
+    value: "The Big Wave",
+    label: "#29 - The Big Wave",
   },
   {
     value: "The Filibuster",

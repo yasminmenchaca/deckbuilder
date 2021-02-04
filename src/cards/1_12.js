@@ -446,6 +446,10 @@ export const cardSeven = [
     value: "Chest Slap",
   },
   {
+    label: "#7 - Choppa-Choppa, Choppa-Choppa, Choppa-Choppa, Chop!",
+    value: "Choppa-Choppa, Choppa-Choppa, Choppa-Choppa, Chop!",
+  },
+  {
     label: "#7 - Discus Punch",
     value: "Discus Punch",
   },
@@ -553,6 +557,10 @@ export const cardSeven = [
 
 export const cardEight = [
   {
+    value: "A Head of Steam",
+    label: "#8 - A Head of Steam",
+  },
+  {
     value: "Arm Bar Takedown",
     label: "#8 - Arm Bar Takedown",
   },
@@ -623,6 +631,10 @@ export const cardEight = [
   {
     value: "Pump Up the Crowd",
     label: "#8 - Pump Up the Crowd",
+  },
+  {
+    value: "Restorative Potion #8",
+    label: "#8 - Restorative Potion #8",
   },
   {
     value: "Scoop Slam",
@@ -718,6 +730,10 @@ export const cardNine = [
   {
     value: "Face Stretch",
     label: "#9 - Face Stretch",
+  },
+  {
+    value: "Feeding Off the Crowd",
+    label: "#9 - Feeding Off the Crowd",
   },
   {
     value: "Front Chancery",

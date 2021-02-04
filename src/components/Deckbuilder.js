@@ -39,6 +39,12 @@ import {
 import { entrance, spectacle } from "../cards/entrance";
 import { competitors } from "../cards/competitors";
 import { Container, Row, Col } from "react-bootstrap";
+import styled from "styled-components";
+
+
+const Card = styled.li`
+  /* list-style: none; */
+`;
 
 export default class DeckBuilder extends Component {
   constructor(props) {
@@ -49,103 +55,103 @@ export default class DeckBuilder extends Component {
   }
 
   selectOne(e) {
-    this.setState({ cardOne: e.label });
+    this.setState({ cardOne: e.value });
   }
   selectTwo(e) {
-    this.setState({ cardTwo: e.label });
+    this.setState({ cardTwo: e.value });
   }
   selectThree(e) {
-    this.setState({ cardThree: e.label });
+    this.setState({ cardThree: e.value });
   }
   selectFour(e) {
-    this.setState({ cardFour: e.label });
+    this.setState({ cardFour: e.value });
   }
   selectFive(e) {
-    this.setState({ cardFive: e.label });
+    this.setState({ cardFive: e.value });
   }
   selectSix(e) {
-    this.setState({ cardSix: e.label });
+    this.setState({ cardSix: e.value });
   }
   selectSeven(e) {
-    this.setState({ cardSeven: e.label });
+    this.setState({ cardSeven: e.value });
   }
   selectEight(e) {
-    this.setState({ cardEight: e.label });
+    this.setState({ cardEight: e.value });
   }
   selectNine(e) {
-    this.setState({ cardNine: e.label });
+    this.setState({ cardNine: e.value });
   }
   selectTen(e) {
-    this.setState({ cardTen: e.label });
+    this.setState({ cardTen: e.value });
   }
   selectEleven(e) {
-    this.setState({ cardEleven: e.label });
+    this.setState({ cardEleven: e.value });
   }
   selectTwelve(e) {
-    this.setState({ cardTwelve: e.label });
+    this.setState({ cardTwelve: e.value });
   }
   selectThirteen(e) {
-    this.setState({ cardThirteen: e.label });
+    this.setState({ cardThirteen: e.value });
   }
   selectFourteen(e) {
-    this.setState({ cardFourteen: e.label });
+    this.setState({ cardFourteen: e.value });
   }
   selectFifteen(e) {
-    this.setState({ cardFifteen: e.label });
+    this.setState({ cardFifteen: e.value });
   }
   selectSixteen(e) {
-    this.setState({ cardSixteen: e.label });
+    this.setState({ cardSixteen: e.value });
   }
   selectSeventeen(e) {
-    this.setState({ cardSeventeen: e.label });
+    this.setState({ cardSeventeen: e.value });
   }
   selectEighteen(e) {
-    this.setState({ cardEighteen: e.label });
+    this.setState({ cardEighteen: e.value });
   }
   selectNineteen(e) {
-    this.setState({ cardEighteen: e.label });
+    this.setState({ cardNineteen: e.value });
   }
   selectTwenty(e) {
-    this.setState({ cardNineteen: e.label });
+    this.setState({ cardTwenty: e.value });
   }
   selectTwentyOne(e) {
-    this.setState({ cardTwenty: e.label });
+    this.setState({ cardTwentyOne: e.value });
   }
   selectTwentyTwo(e) {
-    this.setState({ cardTwentyTwo: e.label });
+    this.setState({ cardTwentyTwo: e.value });
   }
   selectTwentyThree(e) {
-    this.setState({ cardTwentyThree: e.label });
+    this.setState({ cardTwentyThree: e.value });
   }
   selectTwentyFour(e) {
-    this.setState({ cardTwentyFour: e.label });
+    this.setState({ cardTwentyFour: e.value });
   }
   selectTwentyFive(e) {
-    this.setState({ cardTwentyFive: e.label });
+    this.setState({ cardTwentyFive: e.value });
   }
   selectTwentySix(e) {
-    this.setState({ cardTwentySix: e.label });
+    this.setState({ cardTwentySix: e.value });
   }
   selectTwentySeven(e) {
-    this.setState({ cardTwentySeven: e.label });
+    this.setState({ cardTwentySeven: e.value });
   }
   selectTwentyEight(e) {
-    this.setState({ cardTwentyEight: e.label });
+    this.setState({ cardTwentyEight: e.value });
   }
   selectTwentyNine(e) {
-    this.setState({ cardTwentyNine: e.label });
+    this.setState({ cardTwentyNine: e.value });
   }
   selectThirty(e) {
-    this.setState({ cardThirty: e.label });
+    this.setState({ cardThirty: e.value });
   }
   selectCompetitors(e) {
-    this.setState({ competitors: e.label });
+    this.setState({ competitors: e.value });
   }
   selectEntrance(e) {
-    this.setState({ entrance: e.label });
+    this.setState({ entrance: e.value });
   }
   selectSpectacle(e) {
-    this.setState({ spectacle: e.label });
+    this.setState({ spectacle: e.value });
   }
 
   render() {
@@ -459,36 +465,41 @@ export default class DeckBuilder extends Component {
           <p>
             Spectacle Affiliation: <span>{this.state.spectacle}</span>
           </p>
-          <p>{this.state.cardOne}</p>
-          <p>{this.state.cardTwo}</p>
-          <p>{this.state.cardThree}</p>
-          <p>{this.state.cardFour}</p>
-          <p>{this.state.cardFive}</p>
-          <p>{this.state.cardSix}</p>
-          <p>{this.state.cardSeven}</p>
-          <p>{this.state.cardEight}</p>
-          <p>{this.state.cardNine}</p>
-          <p>{this.state.cardTen}</p>
-          <p>{this.state.cardEleven}</p>
-          <p>{this.state.cardTwelve}</p>
-          <p>{this.state.cardThirteen}</p>
-          <p>{this.state.cardFourteen}</p>
-          <p>{this.state.cardFifteen}</p>
-          <p>{this.state.cardSixteen}</p>
-          <p>{this.state.cardSeventeen}</p>
-          <p>{this.state.cardEighteen}</p>
-          <p>{this.state.cardNineteen}</p>
-          <p>{this.state.cardTwenty}</p>
-          <p>{this.state.cardTwentyOne}</p>
-          <p>{this.state.cardTwentyTwo}</p>
-          <p>{this.state.cardTwentyThree}</p>
-          <p>{this.state.cardTwentyFour}</p>
-          <p>{this.state.cardTwentyFive}</p>
-          <p>{this.state.cardTwentySix}</p>
-          <p>{this.state.cardTwentySeven}</p>
-          <p>{this.state.cardTwentyEight}</p>
-          <p>{this.state.cardTwentyNine}</p>
-          <p>{this.state.cardThirty}</p>
+          <p>
+            Deck List:
+          </p>
+          <ol>
+            <Card>{this.state.cardOne}</Card>
+            <Card>{this.state.cardTwo}</Card>
+            <Card>{this.state.cardThree}</Card>
+            <Card>{this.state.cardFour}</Card>
+            <Card>{this.state.cardFive}</Card>
+            <Card>{this.state.cardSix}</Card>
+            <Card>{this.state.cardSeven}</Card>
+            <Card>{this.state.cardEight}</Card>
+            <Card>{this.state.cardNine}</Card>
+            <Card>{this.state.cardTen}</Card>
+            <Card>{this.state.cardEleven}</Card>
+            <Card>{this.state.cardTwelve}</Card>
+            <Card>{this.state.cardThirteen}</Card>
+            <Card>{this.state.cardFourteen}</Card>
+            <Card>{this.state.cardFifteen}</Card>
+            <Card>{this.state.cardSixteen}</Card>
+            <Card>{this.state.cardSeventeen}</Card>
+            <Card>{this.state.cardEighteen}</Card>
+            <Card>{this.state.cardNineteen}</Card>
+            <Card>{this.state.cardTwenty}</Card>
+            <Card>{this.state.cardTwentyOne}</Card>
+            <Card>{this.state.cardTwentyTwo}</Card>
+            <Card>{this.state.cardTwentyThree}</Card>
+            <Card>{this.state.cardTwentyFour}</Card>
+            <Card>{this.state.cardTwentyFive}</Card>
+            <Card>{this.state.cardTwentySix}</Card>
+            <Card>{this.state.cardTwentySeven}</Card>
+            <Card>{this.state.cardTwentyEight}</Card>
+            <Card>{this.state.cardTwentyNine}</Card>
+            <Card>{this.state.cardThirty}</Card>
+          </ol>
         </Container>
       </div>
     );

@@ -8,6 +8,10 @@ export const cardThirteen = [
     label: "#13 - Al13n Invasion",
   },
   {
+    value: "Charging Spear (Strike 8+)",
+    label: "#13 - Charging Spear (Strike 8+)",
+  },
+  {
     value: "Cold Cocked Elbow",
     label: "#13 - Cold Cocked Elbow",
   },
@@ -56,8 +60,8 @@ export const cardThirteen = [
     label: "#13 - High Flying Dive",
   },
   {
-    value: "Hurricane Kick",
-    label: "#13 - Hurricane Kick",
+    value: "Hurricane Kick (Agility 8+)",
+    label: "#13 - Hurricane Kick (Agility 8+)",
   },
   {
     value: "Kick into the Corner",
@@ -98,6 +102,10 @@ export const cardThirteen = [
   {
     value: "Swingin’ And Dingin’",
     label: "#13 - Swingin’ And Dingin’",
+  },
+  {
+    value: "Takeover With The Kendo Stick",
+    label: "#13 - Takeover With The Kendo Stick",
   },
   {
     value: "Takeover With The Ladder",
@@ -199,6 +207,10 @@ export const cardFourteen = [
     label: "#14 - Sidewalk Slam",
   },
   {
+    value: "Smashing Takedown (Grapple 8+)",
+    label: "#14 - Smashing Takedown (Grapple 8+)",
+  },
+  {
     value: "Soaring Suplex (Agility 8+)",
     label: "#14 - Soaring Suplex (Agility 8+)",
   },
@@ -209,6 +221,10 @@ export const cardFourteen = [
   {
     value: "Surprise Cutter",
     label: "#14 - Surprise Cutter",
+  },
+  {
+    value: "Takeover With The Steel Chair",
+    label: "#14 - Takeover With The Steel Chair",
   },
   {
     value: "Takeover With The Table",
@@ -306,8 +322,16 @@ export const cardFifteen = [
     label: "#15 - Single Leg Crab",
   },
   {
+    value: "Slingshot Lock (Submission 8+)",
+    label: "#15 - Slingshot Lock (Submission 8+)",
+  },
+  {
     value: "Split Finger Breaker",
     label: "#15 - Split Finger Breaker",
+  },
+  {
+    value: "Takeover With The Ring Steps",
+    label: "#15 - Takeover With The Ring Steps",
   },
   {
     value: "Takeover With The Steel Chain",
@@ -1066,6 +1090,10 @@ export const cardTwentyOne = [
   {
     value: "Neck Wrenching",
     label: "#21 - Neck Wrenching",
+  },
+  {
+    value: "Nope! Miss a Dive, Eat the Mat",
+    label: "#21 - Nope! Miss a Dive, Eat the Mat",
   },
   {
     value: "Octopus Hold",

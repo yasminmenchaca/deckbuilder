@@ -32,6 +32,10 @@ export const competitors = [
     label: "Al13n Invader",
   },
   {
+    value: "Alexander Slamilton",
+    label: "Alexander Slamilton",
+  },
+  {
     value: "Alpaca Protection Agency",
     label: "Alpaca Protection Agency",
   },
@@ -76,6 +80,10 @@ export const competitors = [
     label: "Beach Bums",
   },
   {
+    value: "Beatstick Brandon",
+    label: "Beatstick Brandon",
+  },
+  {
     value: "Beauty and The Beatstick",
     label: "Beauty and The Beatstick",
   },
@@ -84,12 +92,20 @@ export const competitors = [
     label: "Belinda",
   },
   {
+    value: "Big Bad Bobby D",
+    label: "Big Bad Bobby D",
+  },
+  {
     value: "Big Ballerz",
     label: "Big Ballerz",
   },
   {
     value: "Birdbada",
     label: "Birdbada",
+  },
+  {
+    value: "Bjorn the Norseman",
+    label: "Bjorn the Norseman",
   },
   {
     value: "Black Lipstick",
@@ -126,6 +142,10 @@ export const competitors = [
   {
     value: "Boy Howdy",
     label: "Boy Howdy",
+  },
+  {
+    value: "Brian “Wait_4_It” Schmidt",
+    label: "Brian “Wait_4_It” Schmidt",
   },
   {
     value: "Brian Cage",
@@ -172,6 +192,10 @@ export const competitors = [
     label: "Cheetah",
   },
   {
+    value: "Cherie Von Danish",
+    label: "Cherie Von Danish",
+  },
+  {
     value: "Chester The Jester",
     label: "Chester The Jester",
   },
@@ -206,6 +230,10 @@ export const competitors = [
   {
     value: "D3",
     label: "D3",
+  },
+  {
+    value: "Daisy Rider",
+    label: "Daisy Rider",
   },
   {
     value: "Damien",
@@ -248,6 +276,10 @@ export const competitors = [
     label: "Director of Operations David Maruscsak",
   },
   {
+    value: "Dizzy Derailed",
+    label: "Dizzy Derailed",
+  },
+  {
     value: "DJ Outlaw",
     label: "DJ Outlaw",
   },
@@ -268,12 +300,20 @@ export const competitors = [
     label: "Dr. Jake Hill",
   },
   {
+    value: "Dread Pirate Tech Support",
+    label: "Dread Pirate Tech Support",
+  },
+  {
     value: "Drew Gulak",
     label: "Drew Gulak",
   },
   {
     value: "Drunk/Zen Master",
     label: "Drunk/Zen Master",
+  },
+  {
+    value: "Drunken/Zen Master",
+    label: "Drunken/Zen Master",
   },
   {
     value: "Duff Martin",
@@ -332,6 +372,10 @@ export const competitors = [
     label: "F’N Impact",
   },
   {
+    value: "Finland",
+    label: "Finland",
+  },
+  {
     value: "Five Star Mayhem",
     label: "Five Star Mayhem",
   },
@@ -344,6 +388,10 @@ export const competitors = [
     label: "Fox Assassin",
   },
   {
+    value: "Foxworthy",
+    label: "Foxworthy",
+  },
+  {
     value: "Freak Show",
     label: "Freak Show",
   },
@@ -354,6 +402,14 @@ export const competitors = [
   {
     value: "Funtime Bob",
     label: "Funtime Bob",
+  },
+  {
+    value: "GDD",
+    label: "GDD",
+  },
+  {
+    value: "General Lee Wong",
+    label: "General Lee Wong",
   },
   {
     value: "General Manager John Calace",
@@ -392,8 +448,16 @@ export const competitors = [
     label: "Grim",
   },
   {
+    value: "Grim Librarian",
+    label: "Grim Librarian",
+  },
+  {
     value: "Gropar The Great And Powerful",
     label: "Gropar The Great And Powerful",
+  },
+  {
+    value: "Hailey Stevens",
+    label: "Hailey Stevens",
   },
   {
     value: "Hallow King",
@@ -428,6 +492,14 @@ export const competitors = [
     label: "High Water",
   },
   {
+    value: "Hobbzilla",
+    label: "Hobbzilla",
+  },
+  {
+    value: "Hold the Line Harry",
+    label: "Hold the Line Harry",
+  },
+  {
     value: "Hollywood",
     label: "Hollywood",
   },
@@ -444,12 +516,28 @@ export const competitors = [
     label: "Immortal Brick Brothers",
   },
   {
+    value: "Invisible Man",
+    label: "Invisible Man",
+  },
+  {
     value: "Italian Bombada",
     label: "Italian Bombada",
   },
   {
+    value: "J-Flash",
+    label: "J-Flash",
+  },
+  {
     value: "Jacque EE",
     label: "Jacque EE",
+  },
+  {
+    value: "Jean Constance",
+    label: "Jean Constance",
+  },
+  {
+    value: "Jerk of Cirque",
+    label: "Jerk of Cirque",
   },
   {
     value: "Jigsaw",
@@ -468,6 +556,10 @@ export const competitors = [
     label: 'John "Press 1" P.',
   },
   {
+    value: "Johnny El Dorado",
+    label: "Johnny El Dorado",
+  },
+  {
     value: "Johnny Gargano",
     label: "Johnny Gargano",
   },
@@ -480,8 +572,16 @@ export const competitors = [
     label: "Joker Fish",
   },
   {
+    value: "Joseph Ritchie",
+    label: "Joseph Ritchie",
+  },
+  {
     value: "JT Dunn",
     label: "JT Dunn",
+  },
+  {
+    value: "K7 Sniper",
+    label: "K7 Sniper",
   },
   {
     value: "Kabuki Kabloow",
@@ -732,6 +832,10 @@ export const competitors = [
     label: "Mistress Of Mayhem J.K. Brawling",
   },
   {
+    value: "Mombada",
+    label: "Mombada",
+  },
+  {
     value: "Money Makers",
     label: "Money Makers",
   },
@@ -748,10 +852,6 @@ export const competitors = [
     label: "Mr. Snap",
   },
   {
-    value: "Mrs. Bum Lovely Mone",
-    label: "Mrs. Bum Lovely Mone",
-  },
-  {
     value: "Mrs. Weapon",
     label: "Mrs. Weapon",
   },
@@ -762,6 +862,10 @@ export const competitors = [
   {
     value: "Ms. Terious",
     label: "Ms. Terious",
+  },
+  {
+    value: "Nanouk",
+    label: "Nanouk",
   },
   {
     value: "Neptune & Jupiter",
@@ -818,6 +922,10 @@ export const competitors = [
   {
     value: "Poco Loco",
     label: "Poco Loco",
+  },
+  {
+    value: "Poland’s Prince",
+    label: "Poland’s Prince",
   },
   {
     value: "Polka Dot Tea Party",
@@ -880,6 +988,10 @@ export const competitors = [
     label: "Rob Graves",
   },
   {
+    value: "Robbie G",
+    label: "Robbie G",
+  },
+  {
     value: 'Robert "The Brain" Dunn',
     label: 'Robert "The Brain" Dunn',
   },
@@ -924,6 +1036,14 @@ export const competitors = [
     label: "Shade",
   },
   {
+    value: "Shadow Phoenix",
+    label: "Shadow Phoenix",
+  },
+  {
+    value: "Shaggy Shark",
+    label: "Shaggy Shark",
+  },
+  {
     value: "Shane “Hurricane” Helms",
     label: "Shane “Hurricane” Helms",
   },
@@ -934,6 +1054,10 @@ export const competitors = [
   {
     value: "Sierra Nevada",
     label: "Sierra Nevada",
+  },
+  {
+    value: "Silent J",
+    label: "Silent J",
   },
   {
     value: "Sisters In Blood",
@@ -950,6 +1074,10 @@ export const competitors = [
   {
     value: "Snake Pitt",
     label: "Snake Pitt",
+  },
+  {
+    value: "Soratonin",
+    label: "Soratonin",
   },
   {
     value: "Sovereignty",
@@ -984,6 +1112,10 @@ export const competitors = [
     label: "Style O",
   },
   {
+    value: "Syn",
+    label: "Syn",
+  },
+  {
     value: "Team Valiant",
     label: "Team Valiant",
   },
@@ -998,6 +1130,14 @@ export const competitors = [
   {
     value: "The Baanominal One",
     label: "The Baanominal One",
+  },
+  {
+    value: "The Beast Michael Kerr",
+    label: "The Beast Michael Kerr",
+  },
+  {
+    value: "The Big Guy",
+    label: "The Big Guy",
   },
   {
     value: "The Big Shot",
@@ -1022,6 +1162,10 @@ export const competitors = [
   {
     value: "The Cyclone",
     label: "The Cyclone",
+  },
+  {
+    value: "The Dangerous Flower",
+    label: "The Dangerous Flower",
   },
   {
     value: "The Devil’s Advocate",
@@ -1050,6 +1194,10 @@ export const competitors = [
   {
     value: "The Fireball",
     label: "The Fireball",
+  },
+  {
+    value: "The Freak",
+    label: "The Freak",
   },
   {
     value: "The Frequent Flyer",
@@ -1212,6 +1360,14 @@ export const competitors = [
     label: "The Tiki Twins",
   },
   {
+    value: "The Trashman",
+    label: "The Trashman",
+  },
+  {
+    value: "The True Survivor",
+    label: "The True Survivor",
+  },
+  {
     value: "The Ultimate Grump",
     label: "The Ultimate Grump",
   },
@@ -1276,8 +1432,16 @@ export const competitors = [
     label: "Two Dudes with Baattitude",
   },
   {
+    value: "Tyler Chaos",
+    label: "Tyler Chaos",
+  },
+  {
     value: "Uncle Awesome",
     label: "Uncle Awesome",
+  },
+  {
+    value: "Unicorn Princess",
+    label: "Unicorn Princess",
   },
   {
     value: "Unique",
