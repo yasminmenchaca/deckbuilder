@@ -168,6 +168,8 @@ export default class DeckBuilder extends Component {
                 options={competitors}
                 onChange={this.selectCompetitors.bind(this)}
                 placeholder="Competitor"
+                blurInputOnSelect={true}
+                isSearchable={false}
               />
             </Col>
             <Col sm style={{ paddingBottom: "5px" }}>
