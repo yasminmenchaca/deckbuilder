@@ -13,8 +13,8 @@ class App extends Component {
       <div>
         <NavBar />
         <div style={mainContainer}>
-          {/* <DeckBuilder /> */}
-          <Stops />
+          <DeckBuilder />
+          {/* <Stops /> */}
         </div>
       </div>
     );
