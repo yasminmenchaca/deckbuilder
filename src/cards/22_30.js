@@ -84,6 +84,10 @@ export const cardTwentyTwo = [
     label: "#22 - Running Face Kick",
   },
   {
+    value: "Set Up the Kendo Stick",
+    label: "#22 - Set Up the Kendo Stick",
+  },
+  {
     value: "Set Up the Ladder",
     label: "#22 - Set Up the Ladder",
   },
@@ -181,6 +185,10 @@ export const cardTwentyThree = [
   {
     value: "Rolling Suplex",
     label: "#23 - Rolling Suplex",
+  },
+  {
+    value: "Set Up the Steel Chair",
+    label: "#23 - Set Up the Steel Chair",
   },
   {
     value: "Set Up the Table",
@@ -296,6 +304,10 @@ export const cardTwentyFour = [
   {
     value: "Rib Buster",
     label: "#24 - Rib Buster",
+  },
+  {
+    value: "Set Up the Ring Steps",
+    label: "#24 - Set Up the Ring Steps",
   },
   {
     value: "Set Up the Steel Chain",

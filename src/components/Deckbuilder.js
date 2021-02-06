@@ -168,8 +168,6 @@ export default class DeckBuilder extends Component {
                 options={competitors}
                 onChange={this.selectCompetitors.bind(this)}
                 placeholder="Competitor"
-                blurInputOnSelect={true}
-                isSearchable={false}
               />
             </Col>
             <Col sm style={{ paddingBottom: "5px" }}>
@@ -471,7 +469,7 @@ export default class DeckBuilder extends Component {
             Spectacle Affiliation: <span>{this.state.spectacle}</span>
           </p>
           <p>Deck List:</p>
-          {/* <ol>
+          <ol>
             <Card>{this.state.cardOne}</Card>
             <Card>{this.state.cardTwo}</Card>
             <Card>{this.state.cardThree}</Card>
@@ -502,7 +500,7 @@ export default class DeckBuilder extends Component {
             <Card>{this.state.cardTwentyEight}</Card>
             <Card>{this.state.cardTwentyNine}</Card>
             <Card>{this.state.cardThirty}</Card>
-          </ol> */}
+          </ol>
         </Container>
       </div>
     );

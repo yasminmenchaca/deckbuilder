@@ -460,6 +460,10 @@ export const cardSixteen = [
 
 export const cardSeventeen = [
   {
+    value: "Ambush With The Steel Chair",
+    label: "#17 - Ambush With The Steel Chair",
+  },
+  {
     value: "Ambush With The Table",
     label: "#17 - Ambush With The Table",
   },
@@ -577,6 +581,10 @@ export const cardEighteen = [
   {
     value: "Abdominal Stretch (v2)",
     label: "#18 - Abdominal Stretch (v2)",
+  },
+  {
+    value: "Ambush With The Ring Steps",
+    label: "#18 - Ambush With The Ring Steps",
   },
   {
     value: "Ambush With The Steel Chain",

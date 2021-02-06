@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 import DeckBuilder from "./components/Deckbuilder";
+import Stops from "./components/Stops";
 import NavBar from "./components/NavBar";
 
 class App extends Component {
   render() {
-    
     const mainContainer = {
       paddingTop: "10px",
     };
@@ -13,7 +13,8 @@ class App extends Component {
       <div>
         <NavBar />
         <div style={mainContainer}>
-          <DeckBuilder />
+          {/* <DeckBuilder /> */}
+          <Stops />
         </div>
       </div>
     );

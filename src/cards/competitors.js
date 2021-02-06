@@ -580,6 +580,10 @@ export const competitors = [
     label: "JT Dunn",
   },
   {
+    value: "Jupiter",
+    label: "Jupiter",
+  },
+  {
     value: "K7 Sniper",
     label: "K7 Sniper",
   },
@@ -756,6 +760,10 @@ export const competitors = [
     label: "Mark The Shark",
   },
   {
+    value: "Mars",
+    label: "Mars",
+  },
+  {
     value: "Mars & Mercury",
     label: "Mars & Mercury",
   },
@@ -790,6 +798,10 @@ export const competitors = [
   {
     value: "Mayhem",
     label: "Mayhem",
+  },
+  {
+    value: "Mercury",
+    label: "Mercury",
   },
   {
     value: "Merlin Von Berlin",
@@ -866,6 +878,10 @@ export const competitors = [
   {
     value: "Nanouk",
     label: "Nanouk",
+  },
+  {
+    value: "Neptune",
+    label: "Neptune",
   },
   {
     value: "Neptune & Jupiter",
@@ -1118,6 +1134,10 @@ export const competitors = [
   {
     value: "Team Valiant",
     label: "Team Valiant",
+  },
+  {
+    value: "Terra",
+    label: "Terra",
   },
   {
     value: "Terra & Venus",
