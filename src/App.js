@@ -17,8 +17,9 @@ class App extends Component {
           <NavBar />
           <div style={mainContainer}>
             <Switch>
-              <Route exact path="/deckbuilder" component={DeckBuilder} />
-              <Route exact path="/stops" component={Stops} />
+              <Route exact path="/" render={() => <DeckBuilder />} />
+              <Route exact path="/stops" render={() => <Stops />} />
+              <Route component={DeckBuilder} />
             </Switch>
           </div>
         </div>
