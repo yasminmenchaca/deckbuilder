@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { HashRouter, Route, Switch } from "react-router-dom";
 import DeckBuilder from "./components/Deckbuilder";
 import Stops from "./components/Stops";
 import NavBar from "./components/NavBar";
@@ -12,18 +12,18 @@ class App extends Component {
     };
 
     return (
-      <BrowserRouter>
+      <HashRouter>
         <div>
           <NavBar />
           <div style={mainContainer}>
             <Switch>
               <Route exact path="/" render={() => <DeckBuilder />} />
               <Route exact path="/stops" render={() => <Stops />} />
-              <Route component={DeckBuilder} />
+              <Route component={DeckBuilder}/>
             </Switch>
           </div>
         </div>
-      </BrowserRouter>
+      </HashRouter>
     );
   }
 }
