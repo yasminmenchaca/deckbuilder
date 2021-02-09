@@ -1,32 +1,30 @@
 import React from "react";
 import { Container } from "react-bootstrap";
-import "../App.css";
 
 const Button = (props) => {
   const [color, setColors] = React.useState("");
   const [active, setActive] = React.useState(false);
-  const handleClickButton = (name) => {
+  const handleClickButton = (stop) => {
     setActive(true);
-    setColors(name);
+    setColors(stop);
     if (active === true) {
       setActive(false);
       setColors("button");
     }
   };
 
-  console.log(active);
   return (
     <button
       className={`button ${color}`}
-      onClick={() => handleClickButton(props.name)}
+      onClick={() => handleClickButton(props.stop)}
     >
-      {props.name}
+      {props.stop}
     </button>
   );
 };
 
 const Stops = () => {
-  const [names, setNames] = React.useState([
+  const [stops, setStops] = React.useState([
     "Power",
     "Technique",
     "Agility",
@@ -38,8 +36,8 @@ const Stops = () => {
   return (
     <div>
       <Container>
-        {names.map((name) => (
-          <Button key={name} name={name} />
+        {stops.map((stop) => (
+          <Button key={stop} stop={stop} />
         ))}
       </Container>
     </div>

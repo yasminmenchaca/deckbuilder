@@ -1,25 +1,25 @@
 .Power {
-  background-color: #5D3880;
+  background-color: #5d3880;
   color: white;
 }
 .Technique {
-  background-color: #EAE83D;
+  background-color: #eae83d;
   color: black;
 }
 .Agility {
-  background-color: #4965A6;
+  background-color: #4965a6;
   color: white;
 }
 .Strike {
-  background-color: #4965A6;
+  background-color: #4965a6;
   color: white;
 }
 .Submission {
-  background-color: #EAE83D;
+  background-color: #eae83d;
   color: black;
 }
 .Grapple {
-  background-color: #5D3880;
+  background-color: #5d3880;
   color: white;
 }
 .btn {
@@ -28,7 +28,7 @@
 }
 
 .button {
-  padding: 10px 30px;
-  border: 1px solid black;
-  margin: 10px;
+  width: 100%;
+  margin: 5px;
+  font-size: 30px;
 }
