@@ -84,6 +84,10 @@ export const cardThirteen = [
     label: "#13 - Mudhole Stomp",
   },
   {
+    value: "Run the Ropes",
+    label: "#13 - Run the Ropes",
+  },
+  {
     value: "Running Lariat",
     label: "#13 - Running Lariat",
   },
@@ -110,6 +114,10 @@ export const cardThirteen = [
   {
     value: "Takeover With The Ladder",
     label: "#13 - Takeover With The Ladder",
+  },
+  {
+    value: "Thunderous Smash",
+    label: "#13 - Thunderous Smash",
   },
   {
     value: "Ura-Zuki (Technique 8+)",
@@ -209,6 +217,10 @@ export const cardFourteen = [
   {
     value: "Smashing Takedown (Grapple 8+)",
     label: "#14 - Smashing Takedown (Grapple 8+)",
+  },
+  {
+    value: "Snap Back Drop",
+    label: "#14 - Snap Back Drop",
   },
   {
     value: "Soaring Suplex (Agility 8+)",

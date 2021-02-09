@@ -84,8 +84,8 @@ export const competitors = [
     label: "Beatstick Brandon",
   },
   {
-    value: "Beauty and The Beatstick",
-    label: "Beauty and The Beatstick",
+    value: "Beauty & The Beatstick",
+    label: "Beauty & The Beatstick",
   },
   {
     value: "Belinda",
@@ -160,8 +160,8 @@ export const competitors = [
     label: "Cactus Sac",
   },
   {
-    value: "Cage And Verna",
-    label: "Cage And Verna",
+    value: "Cage & Verna",
+    label: "Cage & Verna",
   },
   {
     value: "Caleb Konley",
@@ -396,8 +396,8 @@ export const competitors = [
     label: "Freak Show",
   },
   {
-    value: "Fulton and Sami",
-    label: "Fulton and Sami",
+    value: "Fulton & Sami",
+    label: "Fulton & Sami",
   },
   {
     value: "Funtime Bob",
@@ -452,8 +452,8 @@ export const competitors = [
     label: "Grim Librarian",
   },
   {
-    value: "Gropar The Great And Powerful",
-    label: "Gropar The Great And Powerful",
+    value: "Gropar The Great & Powerful",
+    label: "Gropar The Great & Powerful",
   },
   {
     value: "Hailey Stevens",
@@ -696,8 +696,8 @@ export const competitors = [
     label: "Lio Rush",
   },
   {
-    value: "Lone Bear and Cub",
-    label: "Lone Bear and Cub",
+    value: "Lone Bear & Cub",
+    label: "Lone Bear & Cub",
   },
   {
     value: "Lonestar",
@@ -904,8 +904,8 @@ export const competitors = [
     label: "Numer01",
   },
   {
-    value: "Obi-Law and Princess Belle",
-    label: "Obi-Law and Princess Belle",
+    value: "Obi-Law & Princess Belle",
+    label: "Obi-Law & Princess Belle",
   },
   {
     value: "Overdog",
@@ -1168,8 +1168,8 @@ export const competitors = [
     label: "The Cannoli",
   },
   {
-    value: "The Chair Extraordinaire Shawn Speras",
-    label: "The Chair Extraordinaire Shawn Speras",
+    value: "The Chair Extraordinaire Shawn Spears",
+    label: "The Chair Extraordinaire Shawn Spears",
   },
   {
     value: "The Collector Sean Loeb",
@@ -1308,8 +1308,8 @@ export const competitors = [
     label: "The New Face of CHaos",
   },
   {
-    value: "The Ole Skull and Bones",
-    label: "The Ole Skull and Bones",
+    value: "The Ole Skull & Bones",
+    label: "The Ole Skull & Bones",
   },
   {
     value: "The One Above All Anthony Gangone",
@@ -1434,6 +1434,10 @@ export const competitors = [
   {
     value: "TJ Marconi",
     label: "TJ Marconi",
+  },
+  {
+    value: "Transatlantic Express",
+    label: "Transatlantic Express",
   },
   {
     value: "Treaty of Friendship",
