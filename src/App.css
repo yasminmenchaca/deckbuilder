@@ -1,0 +1,34 @@
+.Power {
+  background-color: #5D3880;
+  color: white;
+}
+.Technique {
+  background-color: #EAE83D;
+  color: black;
+}
+.Agility {
+  background-color: #4965A6;
+  color: white;
+}
+.Strike {
+  background-color: #4965A6;
+  color: white;
+}
+.Submission {
+  background-color: #EAE83D;
+  color: black;
+}
+.Grapple {
+  background-color: #5D3880;
+  color: white;
+}
+.btn {
+  background-color: red;
+  color: white;
+}
+
+.button {
+  padding: 10px 30px;
+  border: 1px solid black;
+  margin: 10px;
+}
