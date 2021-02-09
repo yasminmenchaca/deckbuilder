@@ -18,7 +18,7 @@ class App extends Component {
           <div style={mainContainer}>
             <Switch>
               <Route exact path="/deckbuilder" component={DeckBuilder} />
-              <Route exact path="/deckbuilder/stops" component={Stops} />
+              <Route exact path="/stops" component={Stops} />
             </Switch>
           </div>
         </div>
