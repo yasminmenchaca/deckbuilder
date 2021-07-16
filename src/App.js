@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { HashRouter, Route, Switch } from "react-router-dom";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 import DeckBuilder from "./components/Deckbuilder";
 import Stops from "./components/Stops";
 import NavBar from "./components/NavBar";
@@ -12,7 +12,7 @@ class App extends Component {
     };
 
     return (
-      <HashRouter>
+      <BrowserRouter>
         <div>
           <NavBar />
           <div style={mainContainer}>
@@ -23,7 +23,7 @@ class App extends Component {
             </Switch>
           </div>
         </div>
-      </HashRouter>
+      </BrowserRouter>
     );
   }
 }
