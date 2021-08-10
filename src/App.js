@@ -4,6 +4,7 @@ import DeckBuilder from "./components/Deckbuilder";
 import Stops from "./components/Stops";
 import NavBar from "./components/NavBar";
 import "./App.css";
+import MoreStops from "./components/MoreStops";
 
 class App extends Component {
   render() {
@@ -19,7 +20,8 @@ class App extends Component {
             <Switch>
               <Route exact path="/" render={() => <DeckBuilder />} />
               <Route exact path="/stops" render={() => <Stops />} />
-              <Route component={DeckBuilder}/>
+              <Route exact path="/morestops" render={() => <MoreStops />} />
+              <Route component={DeckBuilder} />
             </Switch>
           </div>
         </div>
